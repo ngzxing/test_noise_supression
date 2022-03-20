@@ -7,4 +7,4 @@ def noise_sup(infile, outfile):
     reduced_noise = nr.reduce_noise(y=data, sr=rate,prop_decrease=0.95)
     wavfile.write(outfile, rate, reduced_noise)
     
-)
+
